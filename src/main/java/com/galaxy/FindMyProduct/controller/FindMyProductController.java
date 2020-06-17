@@ -14,6 +14,10 @@ public class FindMyProductController {
 	public String HelloUser() {
 		return "Hello User";
 	}
+	@GetMapping("/hello/admin")
+	public String HelloAdmin() {
+		return "Hello Admin";
+	}
 	
 	
 }
